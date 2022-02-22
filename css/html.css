@@ -57,6 +57,8 @@
     overflow: hidden;
     
   }  */
+
+  
   @import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
   
   
@@ -68,15 +70,10 @@ body {
   font-family: "Open Sans Hebrew";
 }
 
-
-
-
-
 * {
   margin: 0;
   padding: 0;
 }
-
 
 .soldier-name-div{
   position: relative;
@@ -118,14 +115,9 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   display: block;
- 
   min-height: min(8vh,11vw);
   max-width: min(11vh,11vw);
- 
 
- 
-  
- 
 }
 .star-top-left-div{
   
@@ -215,6 +207,9 @@ body {
   max-height: 1em;
   color: white;
 }
+
+
+
 /* .pdf-button-div{
   position: relative;
   background-color: aqua;
@@ -227,7 +222,7 @@ body {
   align-items: center;
   justify-content: start;
 } */
-.pdf-button{
+/* .pdf-button{
   background-color: black;
   display: flex;
   position: relative;
@@ -238,12 +233,12 @@ body {
   display: flex;
   justify-content: start;
 
-}
+} */
 
 
 
 .greenBottom {
-  position: fixed;
+  position: relative;
   display: flex;
   bottom: 0px;
   width: 100%;
@@ -293,17 +288,21 @@ body {
 
 
 
+
+
+/*  <--- ran--->
+
 .loader {
-  border: 1em solid #376946; /* Light grey */
-  border-top: 1em solid #3b6124; /* Blue */
+  border: 1em solid #376946; 
+  border-top: 1em solid #3b6124; 
   border-bottom : 1em solid #3b6124;
   border-radius: 50%;
   width: 8em;
   height: 8em;
   animation: spin 2s linear infinite;
-}
+} 
 
-@keyframes spin {
+ @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
@@ -317,6 +316,8 @@ body {
   100% { transform: rotate(-360deg); }
 }
 
+      <--- end of ran--->
+ */
 
 
 
