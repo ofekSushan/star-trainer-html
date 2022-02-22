@@ -1,0 +1,367 @@
+
+
+/* 
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+
+
+
+.face-button {
+  position: relative;
+  height: 64px;
+  
+  height: 64px;
+  display: inline-block;
+  border: 3px solid rgb(8, 66, 8);
+  font-size: 20px;
+  font-weight: 500;
+  
+  text-align: center;
+  text-decoration: none;
+  color: rgb(8, 66, 8);
+  overflow: hidden;
+  
+}  
+.icon {
+  margin-right: 6px;
+}
+
+  .face-primary,
+  .face-secondary {
+    padding: 0 32px;
+    line-height: 32px;
+    transition:  .4s;
+    
+  }
+  
+  .face-primary {
+    background-color: #3b6124;
+    color: #fff;
+
+  }
+  
+  
+  
+  :root {
+    --percentage: 10;
+    --percentageCalc: calc(1.8deg * var(--percentage));
+  } */
+  
+  /* .page{
+    background: var(--white);
+    display: block;
+    margin: 0auto;
+    position:relative; 
+    box-shadow:var(--pageShadow);
+    width: 21cm;
+    height: 29.7cm;
+    overflow: hidden;
+    
+  }  */
+  @import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+  
+  
+  html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  font-family: "Open Sans Hebrew";
+}
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.soldier-name-div{
+  position: relative;
+  right: 20px;
+  display: flex;
+  justify-content: end;
+}
+.soldier-name {
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  line-height: 1em; /* a */
+  max-height: 2em;
+  font-size: min(3vh,4vw);
+  color: black;
+}
+.soldier-location {
+  position: relative;
+  flex-direction: row-reverse;
+  right: 20px;
+  display: flex;
+  justify-content: end;
+  font-size: min(1.5vh,3vw);
+  color: black;
+}
+.flex-container-top {
+  display: flex;
+  width: 100%;
+
+}
+.GreenTop {
+  width: 100%;
+  height: 13vh;
+  flex-grow: 1;
+}
+
+.star {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+ 
+  min-height: min(8vh,11vw);
+  max-width: min(11vh,11vw);
+ 
+
+ 
+  
+ 
+}
+.star-top-left-div{
+  
+  position: absolute;
+  display: flex;
+  left: 20px;
+  top: 5px;
+  width: 5%;
+  height: 10%;
+  min-height: 8vh;
+  min-width: 10vh;
+  align-items: center;
+  justify-content: start;
+}
+.text-top-middle-div{
+  position: absolute;
+  display: flex;
+  right: 20%;
+  width: 60vw;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+}
+.text-top-middle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  line-height: 1em; /* a */
+  max-height: 2em;
+  font-size: min(5vh,4vw);
+  color: white;
+}
+.best {
+  display: flex;
+}
+.flex-container-left-half {
+  position: relative;
+  left: 15%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 15%;
+}
+.flex-container-right-half {
+  position: relative;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 15%;
+
+  
+}
+
+.GreenBox {
+  margin: 1vh;
+  display: flex;
+  background: #3b6124;
+  width: 30vw;
+  height: 4.5vh;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  line-height: 1em; /* a */
+  max-height: 2em;
+  font-size: min(2.5vh,2.5vw);
+  color: white;
+}
+
+.mini-text {
+  display: flex;
+  justify-content: center;
+  margin: 2vh;
+  font-size: min(2.5vh,3vw);
+}
+.vi {
+  display: flex;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  line-height: 2em; /* a */
+  max-height: 1em;
+  max-height: 1em;
+  color: white;
+}
+/* .pdf-button-div{
+  position: relative;
+  background-color: aqua;
+  right: 0px;
+  height: 5vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  justify-content: start;
+} */
+.pdf-button{
+  background-color: black;
+  display: flex;
+  position: relative;
+  height: 5.2vh;
+  width: 50vw;
+  min-width: 1vw;
+  right: 20px;
+  display: flex;
+  justify-content: start;
+
+}
+
+
+
+.greenBottom {
+  position: fixed;
+  display: flex;
+  bottom: 0px;
+  width: 100%;
+  height: 13vh;
+  background: #242E24;
+ 
+}
+
+/* .text-bottom-middle-div{
+  
+  position: absolute;
+  display: flex;
+  right: 25%;
+  width: 50vw;
+  height: 15vh;
+  align-items: center;
+  justify-content: center;
+}
+.text-bottom-middle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  font-size: min(8vh,15vw);
+  color: white
+}
+.text-bottom-middle-right-div{
+  
+  position: absolute;
+  display: flex;
+  right: 20px;
+  width: 50vw;
+  height: 13vh;
+  align-items: flex-start;
+  justify-content: end;
+}
+.text-bottom-right {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  line-height: 2em;  
+  max-height: 2em;
+  font-size: min(4vh,5vw);
+  color: white;
+} 
+*/
+
+
+
+
+.loader {
+  border: 1em solid #376946; /* Light grey */
+  border-top: 1em solid #3b6124; /* Blue */
+  border-bottom : 1em solid #3b6124;
+  border-radius: 50%;
+  width: 8em;
+  height: 8em;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.loader-img {
+
+  animation: loader-spin 2s linear infinite;
+}
+
+@keyframes loader-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(-360deg); }
+}
+
+
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 1vh;
+  
+  min-height: min(11vh,11vw);
+  max-width: min(11vh,11vw);
+
+}
+.circular-progress {
+  position: relative;
+  width: 100%;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  left: 11vw;
+  display: flex;
+  justify-content: center;
+  
+  
+ 
+  
+}
+.circular-progress:before {
+  content: "";
+  position: absolute;
+  height: 84%;
+  width: 84%;
+  background-color: #ffffff;
+  border-radius: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+  
+}
+.value-container {
+  position: relative;
+  font-size: min(4.5vh,4vw);
+  font-weight: 400;
+  color: #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
