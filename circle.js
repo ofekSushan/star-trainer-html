@@ -2,7 +2,7 @@ let progressBar = document.querySelector(".circular-progress");
 let valueContainer = document.querySelector(".value-container");
 
 let progressValue = 0; // מחליט מאיפה העיגול השני הירוק מתחיל 
-let progressEndValue =90; // מחליט מאיפה העיגול השני הירוק עוצר 
+let progressEndValue =85; // מחליט מאיפה העיגול השני הירוק עוצר 
 let speed = 10;
 
 let progress = setInterval(() => {

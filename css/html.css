@@ -160,6 +160,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   width: 15%;
+
 }
 .flex-container-right-half {
   position: relative;
@@ -194,7 +195,7 @@ body {
 .mini-text {
   display: flex;
   justify-content: center;
-  margin: 2vh;
+  
   font-size: min(2.5vh,3vw);
 }
 .vi {
@@ -235,14 +236,23 @@ body {
 
 } */
 
-
+.greenBottom-div{
+  position: relative;
+  display: flex;
+  top: 8vh;
+  width: 100%;
+  height: 100%;
+  min-height: 8vh;
+  min-width: 10vh;
+ align-self: flex-end;
+ align-content: flex-end;
+}
 
 .greenBottom {
   position: relative;
   display: flex;
-  bottom: 0px;
+
   width: 100%;
-  height: 13vh;
   background: #242E24;
  
 }
